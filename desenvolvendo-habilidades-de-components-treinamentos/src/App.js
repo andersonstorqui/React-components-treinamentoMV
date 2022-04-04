@@ -1,4 +1,4 @@
-import { ButtonPage } from "../src/screens/buttons/ButtonPage";
+import ButtonPage from "../src/screens/buttons/ButtonPage";
 
 function App() {
   return (

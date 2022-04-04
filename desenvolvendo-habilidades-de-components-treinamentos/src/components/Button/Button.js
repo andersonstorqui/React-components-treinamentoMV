@@ -1,9 +1,10 @@
-import * as Main from "../../styles/Buttons";
+import { ButtonStyle } from "./styles";
 
 export const Button = ({ fiiled, outline, text, SM, MD, LG, ...props }) => {
+  // console.log(props);
   return (
-    <Main>
-      <button {...props}>Caption</button>;
-    </Main>
+    <>
+      <ButtonStyle {...props}>Caption</ButtonStyle>
+    </>
   );
 };
