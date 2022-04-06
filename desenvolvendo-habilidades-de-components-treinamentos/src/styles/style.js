@@ -131,3 +131,7 @@ export const ButtonArrow = styled.button.attrs((props) => ({
     width: 15%;
   }
 `;
+
+export const InputsStyle = styled.input.attrs((props) => ({
+  type: "input",
+}))``;
