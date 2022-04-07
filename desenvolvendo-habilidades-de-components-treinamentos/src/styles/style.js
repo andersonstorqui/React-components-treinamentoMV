@@ -132,6 +132,52 @@ export const ButtonArrow = styled.button.attrs((props) => ({
   }
 `;
 
-export const InputsStyle = styled.input.attrs((props) => ({
+export const DivInput = styled.div.attrs((props) => ({
+  type: "div",
+}))`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const Button = styled.button.attrs((props) => ({
+  type: "button",
+}))`
+  width: 319px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin-top: 15px;
+
+  border: ${(props) =>
+    (props.blue && "1px solid blue") ||
+    (props.green && "1px solid green") ||
+    (props.grey && "1px solid grey") ||
+    (props.red && "1px solid red")};
+
+  background-color: ${(props) => props.backGroundWhite && "#FFF"};
+`;
+
+export const InputStyles = styled.input.attrs((props) => ({
   type: "input",
-}))``;
+}))`
+  width: 314px;
+  height: 50px;
+
+  border: ${(props) =>
+    (props.blue && "1px solid blue") ||
+    (props.green && "1px solid green") ||
+    (props.grey && "1px solid grey") ||
+    (props.red && "1px solid red")};
+
+  border: ${(props) => props.borderNone && "none"};
+  color: #a8adb7;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+
+  margin-top: 10px;
+`;

@@ -4,7 +4,7 @@ import Inputs from "../src/screens/Inputs/Inputs";
 function App() {
   return (
     <>
-      {/* <ButtonPage /> */}
+      <ButtonPage />
       <Inputs />
     </>
   );
