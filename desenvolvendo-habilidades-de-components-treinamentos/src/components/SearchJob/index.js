@@ -1,12 +1,10 @@
 import { Div } from "../../styles/searchStyles";
 
 const SearchJob = ({
-  bigDiv,
-  titleBig,
-  littleDiv,
-  titleLittle,
-  btnLitlleDiv,
-  btnBigDiv,
+  divOne,
+  divTwo,
+  firstInput,
+  secondaryInput,
   children,
   ...props
 }) => {

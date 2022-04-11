@@ -7,9 +7,9 @@ import "./style.css";
 function App() {
   return (
     <>
-      {/* <ButtonPage /> */}
-      {/* <Inputs /> */}
-      {/* <AreaText /> */}
+      <ButtonPage />
+      <Inputs />
+      <AreaText />
       <Search />
     </>
   );
